@@ -1,11 +1,12 @@
 # nodeJS-image-upload
 
-Simple NodeJS Express Program get files as input from user and upload it to the server. 
+Simple NodeJS Express Program get files as input from user and upload it to the server.
 
-To install necessary packages and start the server: 
-    
-    npm install && npm start
+To install necessary packages and start the server:
 
-Then go to [http://localhost:3000](http://localhost:3000). 
+npm install
 
-Explanation - https://medium.com/@nitinpatel_20236/image-upload-via-nodejs-server-3fe7d3faa642
+Start server
+nodemon server.js
+
+Then go to [http://localhost:3000](http://localhost:3000).
