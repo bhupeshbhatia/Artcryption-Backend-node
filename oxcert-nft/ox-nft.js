@@ -93,7 +93,7 @@ export const deployArtAsset = async (details, ledger) => {
     })
     .then(result => {
       console.log("Deployed!");
-      this.setAssetArray(); // Update the user interface to show the deployed asset
+      return imprint;
     })
     .catch(e => {
       console.log("Error", e);
